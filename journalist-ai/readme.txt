@@ -1,189 +1,152 @@
 === Arvow AI SEO Writer ===
-Tags: seo writing, AI writing, seo writer, ai seo writer, autoblogging
+Tags: seo writing, AI writing, seo writer, ai seo writer, autoblogging, ai content, auto blog, seo content, ai blog writer, ai seo agent
 Contributors: afonsomatos
 Requires at least: 5.0
 Tested up to: 6.7.1
-Stable tag: 1.5.2
+Stable tag: 1.5.3
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The AI SEO writer that generates human-like content and auto-publishes it to your WordPress blog.
+Generate, optimize, and auto-publish SEO content to your WordPress site — with images, internal links, videos, and more.
 
 == Description ==
 
-[Arvow AI SEO Writer](https://arvow.com) not only writes "SEO-optimized" content, it also adds in-article images, videos, internal links, external links, bullets, tables, quotes and much more to create a feature-rich article that satisfies user's search intent.
+[Arvow](https://arvow.com) is an AI SEO platform trusted by 20,000+ marketers and agencies to generate, optimize, and auto-publish content that ranks on Google and gets cited by ChatGPT. This plugin connects your WordPress site directly to Arvow so you can push content straight to your blog — as posts or pages, in draft or published — without leaving the Arvow dashboard.
 
-Moreover, the autoblogging feature automatically writes and publishes to your Wordpress site on autopilot. It can also automatically index your pages on search engines, and syndicate your blog content to social media.
+Every article Arvow generates includes in-article images, embedded videos, internal links, external links, structured headings, tables, FAQs, and more — in 150+ languages. No copy-pasting. No reformatting. One click from Arvow to your WordPress site.
 
-Here's a full breakdown on every feature of this AI:
+Here's a full walkthrough of the product:
 
-https://www.youtube.com/watch?v=BB6SgJPZa9k
+https://www.youtube.com/watch?v=7Sdp0t2I058
 
-This WordPress plugin allows you to [integrate your WordPress website with Arvow AI SEO Writer](https://docs.arvow.com/articles/6541632-wordpress-integration) to benefit from all its AI SEO features.
+[Get started with the WordPress integration →](https://docs.arvow.com/articles/6541632-wordpress-integration)
 
-It's more than just an AI writing software—it's an ecosystem of AI tools that allow WordPress users to do more with their sites. Here's a list of every feature included:
+== What You Can Do ==
 
-* SEO AI Article Writing
-* Convert YouTube Video to Blog Post
-* AI News Article Generation
-* AutoBlogging (i.e., automatically generate and publish articles to your Wordpress site)
-* AutoLinking (i.e., add links to existing content on your site)
-* Automatic Page Indexer
-* Social Syndication
-* Keyword Monitoring
-* Elementor Integration (automatically create Elementor-compatible pages)
+**Generate & Publish SEO Articles**
+Enter a keyword or title in Arvow and get a fully structured, ready-to-rank blog post. Publish it to WordPress instantly or send it as a draft for review.
 
-Now let's break down how each one of these features works and their use cases.
+https://www.youtube.com/watch?v=YZLzd-C5mR8
 
+**Run Your Blog on Autopilot**
+[AutoBlogging](https://arvow.com/autoblog) lets you schedule content generation and publishing on a recurring basis — daily, weekly, or custom. Generate content from keywords, RSS feeds, YouTube videos, or news events. Your WordPress blog stays active without manual effort.
 
-== AI SEO Writing == 
-The SEO AI writing feature allows users to input a title or a keyword and have it generate a blog post with images, videos, internal links, external links, bullets, tables, quotes, and more—all of it "SEO optimized" and ready to be published to your Wordpress site.
+https://www.youtube.com/watch?v=rGIunJB3FWI
 
-Furthermore, with a click of a button, you can have the article published straight to your WordPress site. If you're looking for an automatic blog that writes and publishes to your site, the Autoblogging feature is something you should try.
+**Turn YouTube Videos into Blog Posts**
+Paste a YouTube URL and Arvow converts the video into a complete blog post with embedded video, images, and SEO formatting.
 
-== AI SEO Editor == 
-With the AI SEO Editor you can edit your articles in seconds, that includes the following:
+https://www.youtube.com/watch?v=ffLTimOHKv8
 
-* Adding internal links
-* Adding external links
-* Making text longer, shorter
+**Generate News Content**
+Use the [AI News Article Generator](https://arvow.com/ai-news-article-generator) to publish timely articles about what's happening in your niche. Great for keeping your site fresh and topically relevant.
 
-https://www.youtube.com/watch?v=9GOuwmO0qaU
+https://www.youtube.com/watch?v=HalhRQPKmnQ
 
+**Fix Technical SEO with AI Agents**
+The [AI SEO Agent](https://arvow.com/ai-seo-agent) scans your site, finds gaps in your technical SEO, and automatically deploys fixes — schema markup, meta title optimization, heading structure, internal linking, image alt texts, canonical URLs, redirects, and more. It's not a to-do list; it implements changes live on your site.
 
-== AI Autoblogging == 
-The AI [Autoblogging](https://arvow.com/autoblog) feature automatically generates and publishes articles to your WordPress site on a scheduled basis. This feature ensures your site stays updated with fresh, relevant content without requiring constant manual effort.
+**Optimize Existing Content**
+The [Content Optimizer](https://arvow.com/ai-seo-editor) lets you edit articles in seconds — rewrite sections with custom prompts, add internal and external links, regenerate images, and insert keywords throughout your content.
 
-This is ideal for WordPress users looking to maintain an active online presence effortlessly and automate their SEO efforts.
+**Auto-Link Your Existing Content**
+[AutoLinking](https://arvow.com/auto-linking-tool) scans your published posts and inserts relevant internal and external links — improving site structure, user experience, and SEO authority.
 
-https://www.youtube.com/watch?v=uNYh1NqfWyU
+**Track AI Visibility**
+The [AI Visibility Tracker](https://arvow.com/llm-visibility-tracker) monitors how AI models like ChatGPT, Gemini, and Perplexity mention and recommend your brand. Track sentiment, preview how LLMs showcase your brand, and find opportunities to improve your visibility in AI-generated answers.
 
+https://www.youtube.com/watch?v=cpXHXA2No80
 
-== Video to Blog Post ==
-This feature allows users to convert YouTube videos into fully-formed blog posts. By analyzing the video's content, the tool generates a coherent and engaging article, complete with images, embedded video, and SEO optimization.
+**White Label SEO Reports**
+Generate branded [SEO reports](https://arvow.com/white-label-seo-reports) for clients. Connect Google Search Console, add your logo and custom domain, and share a live dashboard. Ideal for agencies managing multiple client sites.
 
-This is perfect for content creators who want to repurpose their video content for written platforms, expanding their reach and engagement.
+**Auto-Index on Google**
+Connect your Google Search Console and Arvow automatically submits every new article for indexing as soon as it's published.
 
-https://www.youtube.com/watch?v=zCJ52gli9Ac
+**Syndicate to Social Media**
+Automatically generate and publish social media posts with engaging copy and images based on your published blog content.
 
+**Track Keyword Rankings**
+Monitor how your target keywords are performing over time, and adjust your content strategy based on real data.
 
-== AI News Article Generation ==
-The [AI News Article Generation tool](https://arvow.com/ai-news-article-generator) provides users with the ability to create timely, relevant news articles based on current events.
+== WordPress-Specific Features ==
 
-You can have a dedicated "News" section on your WordPress site that covers every news in your niche, giving your users a better user-experience and making your site more relevant and trustworthy in Google's eyes in its niche.
+* Publish as **Posts or Pages**
+* Assign **Authors, Categories, and Tags** on publish
+* Auto-generate **SEO-friendly slugs** from your target keyword
+* Full compatibility with **Yoast, Rank Math, All-in-One SEO, SEOPress, SEO Framework, and Squirrly SEO** — meta descriptions and focus keywords are set automatically
+* **Elementor support** — create Elementor-compatible pages directly from Arvow
+* Works with **any WordPress theme**
 
-The AI news article generator crafts articles that are both informative and engaging, helping to keep your audience informed with the latest developments in your industry.
+== How It Works ==
 
+1. Install and activate this plugin on your WordPress site.
+2. Connect your site to your Arvow account (takes 30 seconds).
+3. Generate articles in Arvow and publish them to WordPress with one click — or set up AutoBlogging to do it automatically.
 
-== AutoLinking ==
-The [Autolinking](https://arvow.com/auto-linking-tool) feature scans your existing content and intelligently inserts internal and external links to boost SEO and user engagement.
+The plugin creates a secure REST endpoint that Arvow uses to deliver content to your site. That's it — no bloat, no settings pages to configure, no performance impact.
 
-This not only improves your site's navigation but also enhances its authority by linking to high-quality, relevant sources.
+== Works Across Platforms ==
 
-https://www.youtube.com/watch?v=Z132K67Qcxw
-
-
-== SEO Keyword Monitoring ==
-Keyword Monitoring tracks the performance of specific keywords related to your content. This feature provides valuable insights into which keywords are driving traffic and which ones need optimization, helping you refine your SEO strategy for better results.
-
-By utilizing these powerful features, WordPress users can significantly enhance their site's content quality, SEO performance, and overall user engagement, making Arvow an invaluable tool for any content-driven website.
+Arvow isn't just for WordPress. It also integrates with Shopify, Webflow, Wix, Framer, and any platform via Zapier or API. Manage all your sites and content from one Arvow account.
 
 == Useful Links ==
-* [AI blogging Training](https://arvow.com/learn)
-* [Documentation](https://docs.arvow.com/)
-* [API Docs](https://arvow.readme.io/reference/v0-1-batch-create)
 
-The plugin creates a REST endpoint that's used by Arvow to send articles to your WordPress website.
+* [Documentation](https://arvow.featurebase.app/help)
+* [AI Blogging Training](https://arvow.com/learn)
+* [API Docs](https://api.arvow.com/api/docs)
 
-The Service is provided under the terms of [Terms of Service](https://arvow.com/tos) and [Privacy Policy](https://arvow.com/privacy).
+This plugin is provided under the [Terms of Service](https://arvow.com/tos) and [Privacy Policy](https://arvow.com/privacy).
 
 == Frequently Asked Questions ==
 
-= Are the articles copyright/plagiarism free? =
+= How is Arvow different from ChatGPT or other AI writers? =
 
-Yes. The content is 100% self/Al-generated.
+ChatGPT gives you raw text you have to format, optimize, and manually upload. Arvow generates fully structured, SEO-ready articles with images, links, videos, and FAQs — and publishes them directly to your WordPress site in one click. Plus, Arvow includes an AI SEO Agent, autoblogging, keyword tracking, and AI visibility monitoring that ChatGPT doesn't offer.
 
-= Can I change my plan later? =
-Yes. You can always either renew your existing plan for more articles, or change your plan.
+= Does Google penalize AI-generated content? =
 
+No. Google's guidelines focus on content quality and helpfulness, not how it was produced. Arvow is built to generate content that satisfies search intent and keeps readers engaged.
 
-= Can I choose to edit the articles before they go live? =
-Yes. You have the option to edit the articles in the platform, or you can publish them in draft to your chosen integration.
+= Can I review articles before they go live? =
 
+Yes. You can publish to WordPress as a draft, review and edit in WordPress or in Arvow's Content Optimizer, and publish when you're ready. Or let AutoBlogging handle everything automatically.
 
-= Can I customize the structure of the articles? =
+= Can I customize the article structure? =
 
-Yes. The structure is 100% customizable. For example, you can customize articles to always include an FAQ at the end, or an Introduction at the start. The limit is your imagination.
+Yes. You control the structure — add or remove intros, FAQs, tables of contents, CTAs, and more. Every article template is fully customizable.
 
+= Can I use this for multiple WordPress sites? =
 
-= Can I generate articles without the AutoBlog? =
+Yes. One Arvow account can manage content for unlimited sites across WordPress and other platforms.
 
-Yes. You can use the platform just as a writing assistant, without automating the whole generation & publishing process.
+= Do I need an Arvow account to use this plugin? =
 
+Yes. The plugin connects your WordPress site to your [Arvow account](https://arvow.com). You can start with a free trial.
 
-= Can I integrate with other platform? =
+= Does this work with my SEO plugin? =
 
-Yes. We do offer Zapier integrations, which allows you to connect to thousands of other platforms. In the Agency plan, you also have access to our API for more granular control. In both cases, we do recommend you have the help of a developer.
-
-= Can I use this for multiple sites? =
-
-Yes. You can generate articles for any niche or business, and you can create any number of integrations or AutoBlogs - everything under one account.
-
-
-= Do you support internal & external linking? =
-
-Yes. You have the option to edit the articles in the platform, or you can publish them in draft to your chosen integration.
-
-
-= Does Google penalize Al content? =
-
-No. Google never penalizes high-quality content that keep the readers engaged, which was what our Al was built for.
-
-
-= Does Arvow pass AI detectors? =
-
-Most of them. The reality is that search engines don't necessarily care who or what writes the content as long as it's valuable for their users. Our content is top-tier and valuable to readers, so search engines give it the value it deserves. Al content detectors don't serve much use in an Al- infused world.
-
-
-= How does the AutoBlog integration work? =
-Arvow seamlessly connects to any platform, making you able to push the articles straight to your website.
-
-
-= How does the AutoBlog work? =
-
-You can turn any website into an automated AutoBlog. It will allow you to configure the schedule, niche, your business, categories, initial prompt, etc.
-
-
-= How does the Google Auto Indexing work? =
-
-You can connect your Google account. Everytime an article is published, we will submit it to your Google Search Console. This guarantees your articles are indexed (meaning they will show up on Google) as fast as possible.
-
-
-= How is this different from ChatGPT and other Al writers? =
-
-ChatGPT and other tools write generic and boring content that is not relevant to your business. Besides, they take too much work to craft high-quality articles. We take a different approach by making this effortless. With just one click, you can have hundreds of articles at your disposal.
-
-
+Yes. Arvow automatically sets meta descriptions and focus keywords for Yoast, Rank Math, All-in-One SEO, SEOPress, SEO Framework, and Squirrly SEO.
 
 == Changelog ==
 
+= 1.5.3 =
+* Updated plugin description, tags, and FAQ
+
 = 1.5.0 =
-* Added Author selection - choose specific WordPress authors for your articles
-* Added Categories support - assign articles to WordPress categories using multi-select interface
-* Added Tags support - assign articles to WordPress tags using multi-select interface
+* Added Author selection — choose specific WordPress authors for your articles
+* Added Categories support — assign articles to WordPress categories
+* Added Tags support — assign articles to WordPress tags
 
 = 1.4.0 =
-* Added Pages support - articles can now be published as WordPress pages instead of posts
-* Added "Use Keyword as Slug" feature - automatically generate SEO-friendly URLs from keywords
-* Future-ready architecture for custom post type support
+* Added Pages support — publish as WordPress pages instead of posts
+* Added "Use Keyword as Slug" — auto-generate SEO-friendly URLs from keywords
 
 = 1.3.0 =
-* Added SEO metadata support for popular SEO plugins (Yoast, Rank Math, All-in-One SEO, SEOPress, SEO Framework, Squirrly SEO)
-* Automatically sets meta descriptions and focus keywords when creating posts
-* Added Elementor support - posts can now be created as Elementor pages when enabled
-* Improved compatibility with SEO optimization workflows
-* Enhanced integration settings with Elementor toggle control
+* Added SEO metadata support for Yoast, Rank Math, All-in-One SEO, SEOPress, SEO Framework, and Squirrly SEO
+* Added Elementor support — create Elementor-compatible pages
+* Automatic meta descriptions and focus keywords on publish
 
 = 1.0.0 =
 * Initial release

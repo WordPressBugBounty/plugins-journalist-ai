@@ -7,7 +7,7 @@
  * @wordpress-plugin
  * Plugin Name:     Arvow AI SEO Writer
  * Description:     Arvow - AI SEO writer for WordPress.
- * Version:         1.5.2
+ * Version:         1.5.3
  * Author:          Arvow
  * Author URI:      https://arvow.com/
  * License:         GPL-2.0 or later
