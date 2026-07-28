@@ -7,7 +7,7 @@
  * @wordpress-plugin
  * Plugin Name:     Arvow AI SEO Writer
  * Description:     Arvow - AI SEO writer for WordPress.
- * Version:         1.5.3
+ * Version:         1.5.4
  * Author:          Arvow
  * Author URI:      https://arvow.com/
  * License:         GPL-2.0 or later
@@ -34,7 +34,6 @@ if (!class_exists('JournalistAI')) {
                 // New explicit handlers
                 add_action('admin_post_journalistai_update_secret', [$this, 'handle_update_secret']);
                 add_action('admin_post_journalistai_connect', [$this, 'handle_connect']);
-                register_deactivation_hook(__FILE__, [$this, 'deactivate']);
             }
         }
 
@@ -52,9 +51,16 @@ if (!class_exists('JournalistAI')) {
             $event = $request->get_param('event');
             $received_secret_header = $request->get_header('x-secret');
             $received_secret_param = $request->get_param('secret');
-            $stored_secret = get_option(self::SECRET_OPTION);
+            $stored_secret = get_option(self::SECRET_OPTION, '');
 
-            if ($received_secret_header !== $stored_secret && $received_secret_param !== $stored_secret) {
+            if (
+                !is_string($stored_secret)
+                || $stored_secret === ''
+                || (
+                    !$this->secrets_match($stored_secret, $received_secret_header)
+                    && !$this->secrets_match($stored_secret, $received_secret_param)
+                )
+            ) {
                 return new WP_REST_Response('Unauthorized', 401);
             }
 
@@ -187,9 +193,24 @@ if (!class_exists('JournalistAI')) {
             }
         }
 
-        public function deactivate(): void
+        /**
+         * Compares a stored secret with a client-supplied credential.
+         */
+        private function secrets_match(string $stored_secret, $received_secret): bool
         {
-            delete_option(self::SECRET_OPTION);
+            return is_string($received_secret) && hash_equals($stored_secret, $received_secret);
+        }
+
+        /**
+         * Ensures the webhook has a secret before it can receive requests.
+         */
+        public static function activate(): void
+        {
+            $existing_secret = get_option(self::SECRET_OPTION, '');
+
+            if (!is_string($existing_secret) || $existing_secret === '') {
+                update_option(self::SECRET_OPTION, wp_generate_password(32, false));
+            }
         }
 
         /**
@@ -467,5 +488,6 @@ if (!class_exists('JournalistAI')) {
         }
     }
 
+    register_activation_hook(__FILE__, [JournalistAI::class, 'activate']);
     new JournalistAI();
 }

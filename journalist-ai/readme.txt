@@ -1,9 +1,9 @@
 === Arvow AI SEO Writer ===
-Tags: seo writing, AI writing, seo writer, ai seo writer, autoblogging, ai content, auto blog, seo content, ai blog writer, ai seo agent
+Tags: seo writing, AI writing, seo writer, ai seo writer, autoblogging
 Contributors: afonsomatos
 Requires at least: 5.0
 Tested up to: 6.7.1
-Stable tag: 1.5.3
+Stable tag: 1.5.4
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -130,6 +130,12 @@ Yes. The plugin connects your WordPress site to your [Arvow account](https://arv
 Yes. Arvow automatically sets meta descriptions and focus keywords for Yoast, Rank Math, All-in-One SEO, SEOPress, SEO Framework, and Squirrly SEO.
 
 == Changelog ==
+
+= 1.5.4 =
+* Fixed an authentication bypass when the integration secret was not configured
+* Generated a secure integration secret when the plugin is activated
+* Preserved the integration secret across plugin deactivation and reactivation
+* Security issue reported by Pablo González Pérez, Francisco José Ramírez Vicente, and Iñigo Sánchez Enciso
 
 = 1.5.3 =
 * Updated plugin description, tags, and FAQ
